@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: rgb(245, 245, 245);
+}
+
+
+
+.hero {
+    background-color: rgb(105, 68, 255);
+    color: white;
+    font-family: sans-serif;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    height: 70px;
+    width: 90px;
+    margin: 20px auto;
+    background-color: rgb(105, 68, 255);
+    border: 2px solid rgb(157, 126, 250);
+    padding: 0.70rem;
+    border-radius: 5px;
+    font-size: 3em;
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+button {
+    width: 120px;
+    margin: 0 auto;
+    padding: 0.85rem;
+    border-radius: 5px;
+    font-size: 1em;
+    color: darkblue;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+.boxes {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    color: rgb(137, 133, 157);
+    font-family: sans-serif;
+    padding: 1.3rem;
+    width: 80%;
+    text-align: center;
+}
+
+.boxes p {
+    margin: 10px auto;
+}
